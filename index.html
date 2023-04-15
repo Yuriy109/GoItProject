@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="dropToNormal.css" />
     <link rel="stylesheet" href="style.css" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Main page</title>
   </head>
   <body>
@@ -16,7 +21,7 @@
           <li><a href="./index.html" class="web-up">WEB</a></li>
           <li><a href="./index.html" class="nav-web-studio">STUDIO</a></li>
           <li><a href="" class="nav-studio">Studio</a></li>
-          <li><a href="" class="nav-items">Portfolio</a></li>
+          <li><a href="portfolio.html" class="nav-items">Portfolio</a></li>
           <li><a href="" class="nav-items">Contacts</a></li>
           <li>
             <a href="mailto:info@devstudio.com" class="nav-info"
@@ -40,6 +45,7 @@
           </button>
         </div>
       </section>
+
       <section class="section2">
         <!-- цей заголовок буде прихованим -->
         <h2 hidden>Our Advantages</h2>
@@ -103,73 +109,66 @@
           </li>
         </ul>
       </section>
+
       <section class="section4">
         <h2 class="section4-h2">Our Team</h2>
 
-        <ul class="section4-ul">
-          <li>
+        <div class="section4-mydiv">
+          <div class="section4-ul-back1">
             <img
-              class="section4-ul-img1"
               src="./images/our-team-img/img-4.jpg"
               alt="First employee"
               width="264"
             />
-            <div class="section4-ul-back">
-              <h3 class="section4-ul-name section4-ul-firstCardName">
-                Mark Guerrero
-              </h3>
-              <p class="section4-ul-title1">Product Designer</p>
-            </div>
-          </li>
-          <li>
+            <h3 class="section4-ul-name">Mark Guerrero</h3>
+            <p class="section4-title">Product Designer</p>
+          </div>
+
+          <div class="section4-ul-back1">
             <img
-              class="section4-ul-img-else"
               src="./images/our-team-img/img-5.jpg"
               alt="Second employee"
               width="264"
             />
-            <div class="section4-ul-back">
-              <h3 class="section4-ul-name section4-ul-name2">Tom Ford</h3>
-              <p class="section4-ul-title2">Frontend Developer</p>
-            </div>
-          </li>
-          <li>
+            <h3 class="section4-ul-name">Tom Ford</h3>
+            <p class="section4-title">Frontend Developer</p>
+          </div>
+
+          <div class="section4-ul-back1">
             <img
-              class="section4-ul-img-else"
               src="./images/our-team-img/img-6.jpg"
               alt="Third employee"
               width="264"
             />
-            <div class="section4-ul-back">
-              <h3 class="section4-ul-name section4-ul-name2">Camila Garcia</h3>
-              <p class="section4-ul-title3">Marketing</p>
-            </div>
-          </li>
-          <li>
+            <h3 class="section4-ul-name">Camila Garcia</h3>
+            <p class="section4-title">Marketing</p>
+          </div>
+
+          <div class="section4-ul-back1">
             <img
-              class="section4-ul-img-else"
               src="./images/our-team-img/img-7.jpg"
               alt="Fourth employee"
               width="264"
             />
-            <div class="section4-ul-back">
-              <h3 class="section4-ul-name section4-ul-name2">Daniel Wilson</h3>
-              <p class="section4-ul-title4">UI Designer</p>
-            </div>
-          </li>
-        </ul>
+            <h3 class="section4-ul-name">Daniel Wilson</h3>
+            <p class="section4-title">UI Designer</p>
+          </div>
+        </div>
       </section>
     </main>
+    <!-- =============== FOOTER ================== -->
 
-    <footer class="footer1">
+    <footer class="footer">
       <div class="footer-div">
-        <a href="./index.html" class="footer-web">WEB</a>
-        <a href="./index.html" class="footer-studio">STUDIO</a>
+        <a class="link logo" href="./index.html"
+          >Web<span class="footer-logo-text">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
       </div>
-      <p class="footer-par">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
     </footer>
+    <!-- =============== /FOOTER ================== -->
   </body>
 </html>
